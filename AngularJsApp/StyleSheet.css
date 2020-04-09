@@ -50,3 +50,25 @@
     background-color: #555; /* Dark-grey background */
     overflow: auto; /* Overflow due to float */
 }
+
+.rounded {
+    background: #3a8e8e;
+    padding: 10px;
+    border-radius: 15px 50px 15px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.rounded-head {
+    background: #3a8e8e;
+    padding: 10px;
+    border-radius: 15px 50px 15px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 10%;
+    text-align: center;
+}
