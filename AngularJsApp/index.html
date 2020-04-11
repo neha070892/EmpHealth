@@ -15,7 +15,7 @@
 
     <div class="menu-bar">
         <ul>
-            <li class="activate">
+            <li>
                 <a href="#"> 
                     <i class="fa fa-home" aria-hidden="true"></i>
                     HOME
@@ -108,68 +108,113 @@
         <img ng-src={{path}} class="center" />
 
     </div>
+    
     <div class="center">
-        <h2 class="rounded">OUR CULTURE</h2>
-        <p>
-            Company culture is the personality of a company. Every company has a different style and its own unique identity. It includes the company's mission, goals, expectations; the way you work, how you behave when no one is looking, how you aim to grow the business, the way you treat customers, each other and how, ideally, you develop people.
-        </p>
+        <div class="container">
+            <div ng-click="active=!active" ng-class="{'expandcollapse-heading-collapsed': active, 'expandcollapse-heading-expanded': !active}">
+                <h2 class="rounded">OUR CULTURE</h2>
+            </div>
+            <div class="slideDown" ng-hide="active">
+                <div class="expand-collapse-content">
+                    <p>
+                        Company culture is the personality of a company. Every company has a different style and its own unique identity. It includes the company's mission, goals, expectations; the way you work, how you behave when no one is looking, how you aim to grow the business, the way you treat customers, each other and how, ideally, you develop people.
+                    </p>
+                </div>
+            </div>
 
-        <h2 class="rounded">INDIA'S STATISTICS</h2>
+        </div>
 
        
-        <h2 class="rounded">WHERE WE STAND</h2>
-
-        <h2 class="rounded">WHY WE SUFFER</h2>
-
-        <ol style="list-style-type:none;">
-            <li>
-                <h3>LIFESTYLE</h3>
-                <p></p>
-            </li>
-            <li>
-                <h3>BACK PAINS</h3>
-                <p></p>
-            </li>
-            <li>
-                <h3>EATING HABITS</h3>
-                <p></p>
-            </li>
-            <li>
-                <h3>
-                    QUALITY OF CHAIRS
-                </h3>
-                <p></p>
-            </li>
-            <li>
-                <h3>POOR SEATING POSTURE</h3>
-                <p></p>
-            </li>
-            <li>
-                <h3>DEPRESSION</h3>
-                <p></p>
-            </li>
-        </ol>
-
-        <h2 class="rounded">HOW TO OVERCOME</h2>
-        <ol  style="list-style-type:none;">
-
-            <li>
-                <div>
-                    DESKERCISE
-                    <p></p>
+        <div class="container">
+            <div ng-click="active1=!active1" ng-class="{'expandcollapse-heading-collapsed': active1, 'expandcollapse-heading-expanded': !active1}">
+                <h2 class="rounded">INDIA'S STATISTICS</h2>
+            </div>
+            <div class="slideDown" ng-hide="active1">
+                <div class="expand-collapse-content">
+                    <p>
+                        abcd
+                    </p>
                 </div>
-            </li>
-            <li>
-                <div>
-                    YOGA
-                    <p></p>
+            </div>
+
+
+            <div class="container">
+                <div ng-click="active2=!active2" ng-class="{'expandcollapse-heading-collapsed': active2, 'expandcollapse-heading-expanded': !active2}">
+                    <h2 class="rounded">WHERE WE STAND</h2>
                 </div>
-            </li>
+                <div class="slideDown" ng-hide="active2">
+                    <div class="expand-collapse-content">
+                        <p>
+                            abcd
+                        </p>
+                    </div>
+                </div>
+                </div>
 
-        </ol>
+                <div class="container">
+                    <div ng-click="active3=!active3" ng-class="{'expandcollapse-heading-collapsed': active3, 'expandcollapse-heading-expanded': !active3}">
+                        <h2 class="rounded">WHY WE SUFFER</h2>
+                    </div>
+                    <div class="slideDown" ng-hide="active3">
+                        <div class="expand-collapse-content">
+                            <ol style="list-style-type:none;">
+                                <li>
+                                    <h3>LIFESTYLE</h3>
+                                    <p></p>
+                                </li>
+                                <li>
+                                    <h3>BACK PAINS</h3>
+                                    <p></p>
+                                </li>
+                                <li>
+                                    <h3>EATING HABITS</h3>
+                                    <p></p>
+                                </li>
+                                <li>
+                                    <h3>
+                                        QUALITY OF CHAIRS
+                                    </h3>
+                                    <p></p>
+                                </li>
+                                <li>
+                                    <h3>POOR SEATING POSTURE</h3>
+                                    <p></p>
+                                </li>
+                                <li>
+                                    <h3>DEPRESSION</h3>
+                                    <p></p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
 
-       
-    </div>
+                    <div class="container">
+                        <div ng-click="active4=!active4" ng-class="{'expandcollapse-heading-collapsed': active4, 'expandcollapse-heading-expanded': !active4}">
+                            <h2 class="rounded">HOW TO OVERCOME</h2>
+                        </div>
+                        <div class="slideDown" ng-hide="active4">
+                            <div class="expand-collapse-content">
+                                <ol style="list-style-type:none;">
+
+                                    <li>
+                                        <div>
+                                            DESKERCISE
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            YOGA
+                                            <p></p>
+                                        </div>
+                                    </li>
+
+                                </ol>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 
 
 </body>
