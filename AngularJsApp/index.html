@@ -16,14 +16,14 @@
     <div class="menu-bar">
         <ul>
             <li>
-                <a href="#"> 
+                <a href="#">
                     <i class="fa fa-home" aria-hidden="true"></i>
                     HOME
                 </a>
-                
+
             </li>
             <li>
-                <a href="#">
+                <a href="#CULTURE">
                     <i class="fa fa-briefcase" aria-hidden="true"></i>
                     CULTURE
                 </a>
@@ -35,13 +35,13 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#Statistics">
                     <i class="fa fa-line-chart" aria-hidden="true"></i>
                     STATISTICS
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#CASESTUDIES">
                     <i class="fa fa-laptop" aria-hidden="true"></i>
                     CASE STUDIES
                 </a>
@@ -54,9 +54,11 @@
                 <div class="sub-menu-1">
                     <ul>
                         <li>
-                            <a href="#">Mission</a></li>
-                            <li><a href="#">Vision</a></li>
-                            <li><a href="#">Team</a>
+                            <a href="#">Mission</a>
+                        </li>
+                        <li><a href="#">Vision</a></li>
+                        <li>
+                            <a href="#">Team</a>
                         </li>
                     </ul>
                 </div>
@@ -69,38 +71,10 @@
             </li>
         </ul>
     </div>
-    <!--<div class="row">
-        <div class="side">
-            <h3>LOGO</h3>
-        </div>
-        <div class="main">
-            <h6>ABOUT US </h6>
-        </div>
-        <h6>CONTACT</h6>
+    <div>
+        <img ng-src={{pathpic}} class="center" />
+
     </div>
-    <div style="text-align:center;">
-        <div>
-            <a href="#">
-                <i class="pe-7s-user"></i>
-                <h3>CULTURE</h3>
-            </a>
-        </div>
-        <div>
-            <a href="#">
-                <i class="pe-7s-user"></i>
-                <h3> BLOG</h3>
-            </a>
-        </div>
-        <div class="nav navbar-nav navbar-right">
-            <a href="#">
-
-                <i class="pe-7s-user"></i>
-                <h3> CASE STUDIES</h3>
-            </a>
-        </div>-->
-        <!--<td ><h3>LOGO</h3></td>-->
-
-    
     <div>
         <h1 class="rounded-head">HEALTH IN IT SECTOR</h1>
     </div>
@@ -108,10 +82,11 @@
         <img ng-src={{path}} class="center" />
 
     </div>
+
     
-    <div class="center">
         <div class="container">
             <div ng-click="active=!active" ng-class="{'expandcollapse-heading-collapsed': active, 'expandcollapse-heading-expanded': !active}">
+               <a name="CULTURE"></a>
                 <h2 class="rounded">OUR CULTURE</h2>
             </div>
             <div class="slideDown" ng-hide="active">
@@ -123,10 +98,11 @@
             </div>
 
         </div>
-
        
+
         <div class="container">
             <div ng-click="active1=!active1" ng-class="{'expandcollapse-heading-collapsed': active1, 'expandcollapse-heading-expanded': !active1}">
+               <a name="Statistics"></a>
                 <h2 class="rounded">INDIA'S STATISTICS</h2>
             </div>
             <div class="slideDown" ng-hide="active1">
@@ -136,7 +112,7 @@
                     </p>
                 </div>
             </div>
-
+            </div>
 
             <div class="container">
                 <div ng-click="active2=!active2" ng-class="{'expandcollapse-heading-collapsed': active2, 'expandcollapse-heading-expanded': !active2}">
@@ -149,7 +125,7 @@
                         </p>
                     </div>
                 </div>
-                </div>
+            </div>
 
             <div class="container">
                 <div ng-click="active3=!active3" ng-class="{'expandcollapse-heading-collapsed': active3, 'expandcollapse-heading-expanded': !active3}">
@@ -216,16 +192,17 @@
                 </div>
                 <div class="container">
                     <div ng-click="active5=!active5" ng-class="{'expandcollapse-heading-collapsed': active5, 'expandcollapse-heading-expanded': !active3}">
+                      <a name="CASESTUDIES"></a>
                         <h2 class="rounded">CASE STUDIES</h2>
                     </div>
                     <div class="slideDown" ng-hide="active5">
                         <div class="expand-collapse-content">
-                           <p>abcd</p>
+                            <p>abcd</p>
                         </div>
                     </div>
 
                 </div>
 
-
+            </div>
 </body>
 </html>
