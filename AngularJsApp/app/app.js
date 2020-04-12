@@ -1,12 +1,12 @@
 ﻿var app = angular.module("myModule", []);
 
 app.controller("myController", function ($scope) {
-    $scope.path = "images/health-is-wealth.jpg";
+    $scope.path = "images/Moves-to-do-at-work.png";
     $scope.logo = "images/myemp.JPG";
-    $scope.active = true;
-    $scope.active1 = true;
-    $scope.active2 = true;
-    $scope.active3 = true;
-    $scope.active4 = true;
-    $scope.active5 = true;
+    $scope.active = false;
+    $scope.active1 = false;
+    $scope.active2 = false;
+    $scope.active3 = false;
+    $scope.active4 = false;
+    $scope.active5 = false;
 });
